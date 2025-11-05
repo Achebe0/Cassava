@@ -5,7 +5,8 @@ import { faUser } from '@fortawesome/free-regular-svg-icons';
 
 function NavBar() {
   return (
-    <header className="navbar">
+    <>
+    <div className="navbar">
    
       <a href="#" className="logo">
         <img src={PinGeoLogo} alt="Logo" height="100px" />
@@ -17,7 +18,8 @@ function NavBar() {
         <a href="#">Favourites</a>
         <a href="#">Profile</a>
       </nav>
-    </header>
+      </div>
+    </>
   );
 }
 

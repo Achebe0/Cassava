@@ -4,9 +4,12 @@ function HomePage(){
 
     return(
         <>
-        <main>
-        <NavBar />
-        </main>
+        
+        <div className="header-container">
+            <main>
+                <NavBar/>
+            </main>
+        </div>
         
         </>
     );
