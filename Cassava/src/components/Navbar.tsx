@@ -6,12 +6,12 @@ import { faUser } from '@fortawesome/free-regular-svg-icons';
 function NavBar() {
   return (
     <header className="navbar">
-      {/* Logo on far left */}
+   
       <a href="#" className="logo">
         <img src={PinGeoLogo} alt="Logo" height="100px" />
       </a>
 
-      {/* Links on far right */}
+     
       <nav className="nav-links">
         <a href="#">Home</a>
         <a href="#">Favourites</a>
