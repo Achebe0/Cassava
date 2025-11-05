@@ -2,19 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 .navbar {
-  background-color: #e0e0e0;
+  background-color: black ;
   display: flex;
   align-items: center;
   justify-content: space-between; 
   padding: 10px 30px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin: 20px;
+  outline: 5px solid rgb(91, 91, 175);
+  opacity: 0.9;
+  
 }
 
 
 .logo img {
-  height: 180px;
+  height: 100px;
 }
 
 
@@ -26,13 +33,14 @@
 
 .nav-links a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #555;
+  color: blue;
 }
 
 /* Icon style */
