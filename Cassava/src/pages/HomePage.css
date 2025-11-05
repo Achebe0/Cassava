@@ -1,10 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    background-color: green;
-  
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.header-container{
-    
+body {
+  background-color: rgb(63, 160, 160);
 }

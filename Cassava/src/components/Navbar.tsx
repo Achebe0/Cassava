@@ -16,7 +16,7 @@ function NavBar() {
       <nav className="nav-links">
         <a href="#">Home</a>
         <a href="#">Favourites</a>
-        <a href="#">Profile</a>
+       <i className="fa-solid fa-user"></i>
       </nav>
       </div>
     </>
